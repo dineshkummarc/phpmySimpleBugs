@@ -13,7 +13,7 @@
 
 							<h6><?php echo lang('created'); ?></h6>
 							<p><i class="icon-time"></i> <?php echo date($date_time_format, strtotime($issue->create_date)); ?></p>
-														
+
 							<h6><?php echo lang('estimate'); ?></h6>
 							<p><i class="icon-time"></i> <?php echo gmdate("H:i", $issue->estimate); ?></p>
 

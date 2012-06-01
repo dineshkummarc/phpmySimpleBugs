@@ -1,9 +1,9 @@
 	<div class="row-fluid">
-			<a href="<?php echo site_url('admin/users/create'); ?>" class="btn btn-primary pull-right"><?php echo lang('create_user'); ?></a>		
-			<h1><?php echo lang('users'); ?> <small><?php echo lang('overview'); ?></small></h1>
+		<a href="<?php echo site_url('admin/users/create'); ?>" class="btn btn-primary pull-right"><?php echo lang('create_user'); ?></a>
+		<h1><?php echo lang('users'); ?> <small><?php echo lang('overview'); ?></small></h1>
 	</div>
 
-	<div class="row-fluid">		
+	<div class="row-fluid">
 	<table class="table table-striped">
 		<tbody>
 			<?php foreach($users as $user): ?>
@@ -17,8 +17,8 @@
 						<a href="#" class="btn btn-mini btn-info"><i class="icon-tasks icon-white"></i> <?php echo lang('issues'); ?></a>
 					</div>
 				</td>
-			</tr>				
-			<?php endforeach; ?>		
+			</tr>
+			<?php endforeach; ?>
 		</tbody>
 	</table>
 	</div>
